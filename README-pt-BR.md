@@ -8,7 +8,7 @@ Este projeto apresenta uma aplicação projetada em torno da teoria de portfóli
 
 ## Captura de Tela de Exemplo:
 
-![Dashboard de Otimização de Portfólio](insert_image_url_here)
+![Dashboard de Otimização de Portfólio](https://raw.githubusercontent.com/lucsalm/portfolio-generator-dash/main/portfolio-example.png)
 
 ## Teoria de Portfólio:
 

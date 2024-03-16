@@ -1,6 +1,6 @@
 # Portfolio Optimization Dashboard
 
-This document was originally written in [English](URL_do_Link), but it is also available in [Portuguese](URL_do_Link).
+This document was originally written in [English](https://github.com/lucsalm/portfolio-generator-dash/blob/main/README.md), but it is also available in [Portuguese](https://github.com/lucsalm/portfolio-generator-dash/blob/main/README-pt-BR.md).
 
 ## Overview
 
@@ -8,7 +8,7 @@ This project features an application designed around portfolio theory, offering 
 
 ## Example Screenshot:
 
-![Portfolio Optimization Dashboard](insert_image_url_here)
+![Portfolio Optimization Dashboard](https://raw.githubusercontent.com/lucsalm/portfolio-generator-dash/main/portfolio-example.png)
 
 ## Portfolio Theory:
 
