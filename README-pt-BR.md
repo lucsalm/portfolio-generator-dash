@@ -1,4 +1,4 @@
-# Dashboard de Otimização de Portfólio
+# Dashboard de Geração de Portfólio
 
 Esse documento está originamento em [Inglês](URL_do_Link), porém também se encontra traduzido em [Português](URL_do_Link).
 
