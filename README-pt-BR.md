@@ -1,4 +1,4 @@
-# Dashboard de Geração de Portfólio
+# Gerador de Portfólio Dashboard
 
 Esse documento está originamento em [Inglês](URL_do_Link), porém também se encontra traduzido em [Português](URL_do_Link).
 
