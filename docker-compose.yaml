@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  portfolio:
+    image: lucasalmdsilva/portfolio:latest
+    pull_policy: always
+    ports:
+      - "8050:8050"
