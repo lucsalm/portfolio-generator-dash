@@ -20,10 +20,15 @@ A teoria de portfólio é um dos pilares da finança moderna, focando na otimiza
 2. Clone este repositório para o seu ambiente local.
 3. Navegue até o diretório do projeto.
 4. No terminal, execute o seguinte comando para construir e iniciar o contêiner Docker:
+    - No Linux, execute:
+        ```bash
+        docker compose up
+        ```
 
-    ```bash
-    docker-compose up
-    ```
+    - No Windows, execute:
+        ```bash
+        docker-compose up
+        ```
 
 5. Após a construção do contêiner e a inicialização da aplicação, acesse `http://localhost:8050` em seu navegador da web para explorar o Dashboard de Otimização de Portfólio.
 

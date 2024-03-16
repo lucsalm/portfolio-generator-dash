@@ -20,10 +20,15 @@ Portfolio theory is one of the cornerstones of modern finance, focusing on optim
 2. Clone this repository to your local environment.
 3. Navigate to the project directory.
 4. In the terminal, execute the following command to build and start the Docker container:
+    - On Linux, execute:
+        ```bash
+        docker compose up
+        ```
 
-    ```bash
-    docker-compose up
-    ```
+    - On Windows, execute:
+        ```bash
+        docker-compose up
+        ```
 
 5. After the container is built and the application is initialized, access `http://localhost:8050` in your web browser to explore the Portfolio Optimization Dashboard.
 
