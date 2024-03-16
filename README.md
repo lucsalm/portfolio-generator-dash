@@ -1,4 +1,4 @@
-# Portfolio Dashboard Generator
+# Portfolio Generator
 
 This document was originally written in [English](https://github.com/lucsalm/portfolio-generator-dash/blob/main/README.md), but it is also available in [Portuguese](https://github.com/lucsalm/portfolio-generator-dash/blob/main/README-pt-BR.md).
 
