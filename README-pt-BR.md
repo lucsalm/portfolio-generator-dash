@@ -1,6 +1,6 @@
 # Gerador de Portfólio
 
-Esse documento está originamento em [Inglês](URL_do_Link), porém também se encontra traduzido em [Português](URL_do_Link).
+Esse documento está originamento em [Inglês](https://github.com/lucsalm/portfolio-generator-dash/blob/main/README.md), porém também se encontra traduzido em [Português](https://github.com/lucsalm/portfolio-generator-dash/blob/main/README-pt-BR.md).
 
 ## Visão Geral
 
@@ -41,7 +41,8 @@ A teoria de portfólio é um dos pilares da finança moderna, focando na otimiza
 
 5. Após a construção do contêiner e a inicialização da aplicação, acesse `http://localhost:8050` em seu navegador da web para explorar o Dashboard de Otimização de Portfólio.
 
-**Observação:** Certifique-se de que a porta 8050 não está sendo utilizada por outra aplicação em seu sistema para evitar conflitos. Se necessário, você pode modificar o mapeamento de porta no arquivo `docker-compose.yml`.
+**Observação:** 
+- Certifique-se de que a porta `8050` não está sendo utilizada por outra aplicação em seu sistema para evitar conflitos. Se necessário, você pode modificar o mapeamento de porta no arquivo `docker-compose.yml`.
 
 ## Referências
 
