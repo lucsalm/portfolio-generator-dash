@@ -1,6 +1,6 @@
 # Portfolio Generator
 
-This document was originally written in [English](https://github.com/lucsalm/portfolio-generator-dash/blob/main/README.md), but it is also available in [Portuguese](https://github.com/lucsalm/portfolio-generator-dash/blob/main/README-pt-BR.md).
+This document is available in [English](https://github.com/lucsalm/account-api/blob/main/README.md), but it's also available in [Portuguese](https://github.com/lucsalm/account-api/blob/main/README-pt-BR.md).
 
 ## Overview
 
