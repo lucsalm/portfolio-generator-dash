@@ -1,16 +1,16 @@
 # Portfolio Generator
 
-This document is available in [English](https://github.com/lucsalm/account-api/blob/main/README.md), but it's also available in [Portuguese](https://github.com/lucsalm/account-api/blob/main/README-pt-BR.md).
+Este documento está disponível em [Inglês](README-en.md), porém também está disponível em [Português](README-en).
 
-## Overview
+## Visão Geral
 
-This project features an application designed around portfolio theory, offering users the ability to select up to three financial assets and specify the analysis period in years. Utilizing nonlinear optimization techniques on the Sharpe ratio, the application generates interactive dashboards that display detailed insights into the selected assets, including historical performance and asset allocation, as well as the expected return and risk of the portfolio.
+Este projeto apresenta uma aplicação projetada em torno da teoria de portfólio, oferecendo aos usuários a capacidade de selecionar até três ativos financeiros e especificar o período de análise em anos. Utilizando técnicas de otimização não linear no índice de Sharpe, a aplicação gera dashboards interativos que mostram insights detalhados sobre os ativos selecionados, incluindo desempenho histórico e alocação de ativos, além do retorno e risco esperado do portfólio.
 
-## Portfolio Theory
+## Teoria de Portfólio
 
-Portfolio theory is one of the cornerstones of modern finance, focusing on optimizing asset allocation to maximize expected returns while minimizing associated risks. Introduced by Harry Markowitz in the 1950s, this theory revolutionized investment management by demonstrating the benefits of diversification, illustrating how a well-diversified portfolio can mitigate overall risk without sacrificing potential returns. For further exploration, refer to Markowitz's seminal paper: "Portfolio Selection" (Markowitz, H. (1952). Portfolio Selection. The Journal of Finance, 7(1), 77-91).
+A teoria de portfólio é um dos pilares da finança moderna, focando na otimização da alocação de ativos para maximizar os retornos esperados enquanto minimiza os riscos associados. Introduzida por Harry Markowitz na década de 1950, esta teoria revolucionou a gestão de investimentos ao demonstrar os benefícios da diversificação, ilustrando como um portfólio bem diversificado pode mitigar o risco global sem sacrificar os retornos potenciais. Para uma exploração mais aprofundada, consulte o artigo seminal de Markowitz: "Seleção de Portfólio" (Markowitz, H. (1952). Seleção de Portfólio. The Journal of Finance, 7(1), 77-91).
 
-## Stack
+## Tecnologias
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
@@ -19,32 +19,31 @@ Portfolio theory is one of the cornerstones of modern finance, focusing on optim
 ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
 ![Sympy](https://img.shields.io/badge/SymPy-3B5526.svg?style=for-the-badge&logo=SymPy&logoColor=white)
 
+## Captura de Tela de Exemplo
 
-## Screenshot
+![Dashboard de Otimização de Portfólio](portfolio-example.png)
 
-![Portfolio Optimization Dashboard](https://raw.githubusercontent.com/lucsalm/portfolio-generator-dash/main/portfolio-example.png)
+## Como Usar
 
-## How to Use
-
-1. Make sure Docker is installed on your machine.
-2. Clone this repository to your local environment.
-3. Navigate to the project directory.
-4. In the terminal, execute the following command to build and start the Docker container:
-    - On Linux, execute:
+1. Certifique-se de que o Docker esteja instalado em sua máquina.
+2. Clone este repositório para o seu ambiente local.
+3. Navegue até o diretório do projeto.
+4. No terminal, execute o seguinte comando para construir e iniciar o contêiner Docker:
+    - No Linux, execute:
         ```bash
         docker compose up
         ```
 
-    - On Windows, execute:
+    - No Windows, execute:
         ```bash
         docker-compose up
         ```
 
-5. After the container is built and the application is initialized, access `http://localhost:8050` in your web browser to explore the Portfolio Optimization Dashboard.
+5. Após a construção do contêiner e a inicialização da aplicação, acesse `http://localhost:8050` em seu navegador da web para explorar o Dashboard de Otimização de Portfólio.
 
-**Note:**
-- Ensure that port 8050 is not in use by any other application on your system to avoid conflicts. If necessary, you can modify the port mapping in the `docker-compose.yml` file.
+**Observação:** 
+- Certifique-se de que a porta `8050` não está sendo utilizada por outra aplicação em seu sistema para evitar conflitos. Se necessário, você pode modificar o mapeamento de porta no arquivo `docker-compose.yml`.
 
-## References
+## Referências
 
-- Markowitz, H. (1952). Portfolio Selection. The Journal of Finance, 7(1), 77-91.
+- Markowitz, H. (1952). Seleção de Portfólio. The Journal of Finance, 7(1), 77-91.
