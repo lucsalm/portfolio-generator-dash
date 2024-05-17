@@ -39,10 +39,10 @@ A teoria de portfólio é um dos pilares da finança moderna, focando na otimiza
         docker-compose up
         ```
 
-5. Após a construção do contêiner e a inicialização da aplicação, acesse `http://localhost:8050` em seu navegador da web para explorar o Dashboard de Otimização de Portfólio.
+5. Após a construção do contêiner e a inicialização da aplicação, acesse [http://localhost:8050](http://localhost:8050) em seu navegador da web para explorar o Dashboard de Otimização de Portfólio.
 
 **Observação:** 
-- Certifique-se de que a porta `8050` não está sendo utilizada por outra aplicação em seu sistema para evitar conflitos. Se necessário, você pode modificar o mapeamento de porta no arquivo `docker-compose.yml`.
+- Certifique-se de que a porta `8050` não está sendo utilizada por outra aplicação em seu sistema para evitar conflitos. Se necessário, você pode modificar o mapeamento de porta no arquivo [docker-compose.yaml](docker-compose.yaml).
 
 ## Referências
 

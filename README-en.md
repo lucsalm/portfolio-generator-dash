@@ -40,10 +40,10 @@ Portfolio theory is one of the cornerstones of modern finance, focusing on optim
         docker-compose up
         ```
 
-5. After the container is built and the application is initialized, access `http://localhost:8050` in your web browser to explore the Portfolio Optimization Dashboard.
+5. After the container is built and the application is initialized, access [http://localhost:8050](http://localhost:8050) in your web browser to explore the Portfolio Optimization Dashboard.
 
 **Note:**
-- Ensure that port 8050 is not in use by any other application on your system to avoid conflicts. If necessary, you can modify the port mapping in the `docker-compose.yml` file.
+- Ensure that port 8050 is not in use by any other application on your system to avoid conflicts. If necessary, you can modify the port mapping in the [docker-compose.yaml](docker-compose.yaml) file.
 
 ## References
 
